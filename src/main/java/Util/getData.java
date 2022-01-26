@@ -12,9 +12,8 @@ public class getData {
 
     public static List<JSONObject> readData() {
         List<JSONObject> ob = new ArrayList<>();
-//        JSONObject ob = new JSONObject("{}");
-        try {
 
+        try {
             //Khoi tao ket noi
             URL dataURL = new URL(LINK);
             URLConnection dc = dataURL.openConnection();
